@@ -4,7 +4,7 @@ import streamlit as st
 from agent.agent import create_ai_agent
 from utils.memory import create_thread_id
 
-import streamlit as st
+
 
 GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 SERPER_API_KEY = st.secrets["SERPER_API_KEY"]
